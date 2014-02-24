@@ -1,0 +1,5 @@
+# add to ~/.bashrc
+export TOMCAT=$HOME/tomcat/apache-tomcat-7.0.52
+export JAVAHOME=/usr/bin/java
+export CLASSPATH=.:$JAVAHOME:/opt/vertica/java/lib/vertica-jdk5.jar
+PATH=$PATH:/opt/vertica/bin:$JAVAHOME/bin
